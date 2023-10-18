@@ -30,8 +30,8 @@ int main()
     else
     {
         if(sa>sb)
-        printf("%d",a);
-        else
         printf("%d",b);
+        else
+        printf("%d",a);
     }
 }
