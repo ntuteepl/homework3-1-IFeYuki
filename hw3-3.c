@@ -22,7 +22,7 @@ int main()
     if(sa=sb)
     {
         if(a>b)
-        printf("%d",b);
+        printf("%d",b);n
         else
         printf("%d",a);
     }
@@ -30,8 +30,8 @@ int main()
     else
     {
         if(sa>sb)
-        printf("%d",b);
-        else
         printf("%d",a);
+        else
+        printf("%d",b);
     }
 }
