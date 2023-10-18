@@ -5,7 +5,7 @@ int main()
 {
     int a,b,c=0,d;
     scanf("%d",&a);
-    for(b=1;b<=100;b++)
+    for(b=1;b<=1000;b++)
     {
         d=a%b;
         if  (d==0) c=c+1;
