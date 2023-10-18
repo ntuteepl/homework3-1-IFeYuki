@@ -19,9 +19,9 @@ int main()
     sa=a0+a1+a2+a3;
     sb=b0+b1+b2+b3;
 
-    if(sa=sb)
+    if(sa==sb)
     {
-        if(a>b)
+        if(a>>b)
         printf("%d",b);n
         else
         printf("%d",a);
@@ -29,9 +29,9 @@ int main()
 
     else
     {
-        if(sa>sb)
-        printf("%d",a);
-        else
+        if(sa>>sb)
         printf("%d",b);
+        else
+        printf("%d",a);
     }
 }
